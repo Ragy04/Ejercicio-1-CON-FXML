@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="539.0" prefWidth="470.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ejercicio1.ejercicio1.ejercicio1Controller">
+   <children>
+      <AnchorPane layoutX="232.0" layoutY="14.0" prefHeight="374.0" prefWidth="224.0" style="-fx-background-color: #030303;">
+         <children>
+            <ListView layoutX="12.0" layoutY="12.0" prefHeight="347.0" prefWidth="200.0" />
+         </children>
+      </AnchorPane>
+      <ScrollBar layoutX="7.0" layoutY="26.0" orientation="VERTICAL" prefHeight="505.0" prefWidth="14.0" />
+      <AnchorPane layoutX="27.0" layoutY="26.0" prefHeight="505.0" prefWidth="200.0">
+         <children>
+            <AnchorPane layoutX="5.0" layoutY="14.0" prefHeight="54.0" prefWidth="188.0" style="-fx-background-color: #33FFDD;">
+               <children>
+                  <ImageView fx:id="imageView1" fitHeight="46.0" fitWidth="52.0" layoutX="5.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label layoutX="73.0" layoutY="20.0" prefHeight="17.0" prefWidth="77.0" text="Raul  Carrero" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="5.0" layoutY="78.0" prefHeight="54.0" prefWidth="188.0" style="-fx-background-color: #33FFDD;">
+               <children>
+                  <ImageView fx:id="imageView2" fitHeight="46.0" fitWidth="52.0" layoutX="6.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label layoutX="73.0" layoutY="15.0" prefHeight="17.0" prefWidth="77.0" text="Rachel Cantos" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="5.0" layoutY="142.0" prefHeight="54.0" prefWidth="188.0" style="-fx-background-color: #33FFDD;">
+               <children>
+                  <ImageView fx:id="imageView3" fitHeight="46.0" fitWidth="52.0" layoutX="7.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label layoutX="73.0" layoutY="20.0" prefHeight="17.0" prefWidth="77.0" text="Jose PImentel" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="7.0" layoutY="206.0" prefHeight="54.0" prefWidth="188.0" style="-fx-background-color: #33FFDD;">
+               <children>
+                  <ImageView fx:id="imageView4" fitHeight="46.0" fitWidth="52.0" layoutX="5.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label layoutX="71.0" layoutY="18.0" prefHeight="17.0" prefWidth="77.0" text="Luis Ortega" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="231.0" layoutY="396.0" prefHeight="134.0" prefWidth="231.0">
+         <children>
+            <TextField layoutX="5.0" layoutY="55.0" prefHeight="25.0" prefWidth="218.0" style="-fx-background-color: #47C4D0;" />
+         </children>
+      </AnchorPane>
+   </children>
+</Pane>
